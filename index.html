@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Bootstrap v.5.1.3-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Centro Médico Ñuñoa</title>
+</head>
+
+<body>
+    <header>
+        <p class="display-1 text-center">Pacientes</p>
+    </header>
+    <section id="radiologia">
+        <p class="display-3 text-center">Radiología</p>
+        <div class="container">
+            <table class="table table-striped">
+                <thead>
+                    <th>Hora</th>
+                    <th>Especialista</th>
+                    <th>Paciente</th>
+                    <th>Rut</th>
+                    <th>Previsión</th>
+                </thead>
+                <tbody id="tablaRadio">
+
+                </tbody>
+
+            </table>
+            <p id="infoRadio" class="text-center"> </p>
+        </div>
+    </section>
+    <section id="traumatologia">
+        <p class="display-3 text-center ">Traumatología</p>
+        <div class="container">
+            <table class="table table-striped">
+                <thead>
+                    <th>Hora</th>
+                    <th>Especialista</th>
+                    <th>Paciente</th>
+                    <th>Rut</th>
+                    <th>Previsión</th>
+                </thead>
+                <tbody id="tablaTrauma">
+
+                </tbody>
+
+            </table>
+            <p id="infoTrauma" class="text-center"> </p>
+        </div>
+    </section>
+    <section id="dental">
+        <p class="display-3 text-center">Dental</p>
+        <div class="container">
+            <table class="table table-striped">
+                <thead>
+                    <th>Hora</th>
+                    <th>Especialista</th>
+                    <th>Paciente</th>
+                    <th>Rut</th>
+                    <th>Previsión</th>
+                </thead>
+                <tbody id="tablaDental">
+
+                </tbody>
+
+            </table>
+            <p id="infoDental" class="text-center"> </p>
+        </div>
+    </section>
+<section class="pt-5">
+    <div class="row">
+        <div class="container list-group w-25  col-sm-3" id="filas-dental"><p class="text-center fw-bolder">Consultas Médicas del área Dental</p></div>
+    
+        <div id="listas-pacientes" class="listas container list-group w-25  col-sm-3"><p class="text-center fw-bolder">Listado de todos los pacientes atendidos en el Centro Médico</p></div>
+    
+    
+        <div id="listas-trauma" class="listas-dental container list-group w-25  col-sm-3"><p class="text-center fw-bolder">Pacientes del área Traumatología que se atendieron por Fonasa</p></div>
+    
+    
+        <div id="listas-dental" class=" container list-group w-25  col-sm-3"><p class="text-center fw-bolder">Pacientes del área Dental que se atendieron por Isapre</p></div>
+    
+    </div>
+</section>
+    <!--Vinculación JS local-->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
